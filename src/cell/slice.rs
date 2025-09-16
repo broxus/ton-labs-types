@@ -166,7 +166,7 @@ impl SliceData {
             } else { // return suffix
                 slice.data_window.start += end;
             }
-            slice.references_window = 0..0;
+            //slice.references_window = 0..0;
             self.data_window.end = self.data_window.start + end;
             self.data_window.start += start;
             slice
